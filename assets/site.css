@@ -882,26 +882,6 @@ select {
   background: #111814;
   border-radius: 2px;
 }
-.method-section {
-  padding-block: 61px;
-  background: #e7ebdf;
-  border-top: 1px solid #d5ddca;
-  border-bottom: 1px solid #d5ddca;
-}
-.method-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 36px;
-  margin-top: 40px;
-}
-.method-grid article {
-  padding-right: 22px;
-  border-right: 1px solid #ccd5c3;
-}
-.method-grid article:last-child {
-  padding-right: 0;
-  border-right: 0;
-}
 .protocol-number {
   display: inline-grid;
   place-items: center;
@@ -911,19 +891,6 @@ select {
   border-radius: 50%;
   font-size: 10px;
   color: var(--green);
-}
-.method-grid h3 {
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: -0.2px;
-  margin: 17px 0 10px;
-}
-.method-grid p {
-  font-size: 12px;
-  line-height: 1.9;
-  color: #52634f;
-  margin: 0;
-  max-width: 340px;
 }
 .protocol-note {
   display: flex;
@@ -1234,29 +1201,6 @@ select {
     justify-self: center;
     max-width: 440px;
   }
-  .method-section {
-    padding-block: 40px;
-  }
-  .method-grid {
-    grid-template-columns: 1fr;
-    gap: 25px;
-    margin-top: 29px;
-  }
-  .method-grid article {
-    border-right: 0;
-    border-bottom: 1px solid #ccd5c3;
-    padding: 0 0 23px;
-  }
-  .method-grid article:last-child {
-    border-bottom: 0;
-    padding-bottom: 0;
-  }
-  .method-grid h3 {
-    margin-top: 10px;
-  }
-  .method-grid p {
-    max-width: 100%;
-  }
   .protocol-note {
     display: block;
     margin-top: 28px;
@@ -1515,40 +1459,6 @@ summary:focus-visible {
 .single-completion-details p {
   padding-left: 14px;
 }
-.idea-illustration {
-  width: 100%;
-  max-width: 290px;
-  height: 126px;
-  fill: var(--green);
-}
-.idea-path {
-  fill: none;
-  stroke: var(--green);
-  stroke-width: 3;
-  stroke-linecap: round;
-}
-.idea-path.faint {
-  stroke: #8eaa83;
-  stroke-width: 2;
-  stroke-dasharray: 5 6;
-}
-.idea-tick {
-  fill: none;
-  stroke: #99aa77;
-  stroke-width: 2;
-}
-.idea-ellipse {
-  fill: none;
-  stroke: #a6b994;
-  stroke-width: 1.5;
-}
-.method-note {
-  font-size: 12px;
-  color: var(--muted);
-  margin: 36px 0 0;
-  padding-top: 25px;
-  border-top: 1px solid #ccd5c3;
-}
 @media (max-width: 1050px) {
   .highlight-grid {
     gap: 17px;
@@ -1587,8 +1497,5 @@ summary:focus-visible {
   }
   .result-disclosure > summary {
     padding: 18px 20px;
-  }
-  .idea-illustration {
-    height: 110px;
   }
 }

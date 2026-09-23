@@ -27,7 +27,6 @@
         <nav aria-label="Main navigation">
           <a href="#highlights">Demonstrations</a>
           <a href="#comparisons">Comparisons</a>
-          <a href="#method">The idea <span aria-hidden="true">↗</span></a>
         </nav>
       </div>
     </header>
@@ -332,103 +331,6 @@
         </div>
       </section>
 
-      <section
-        id="method"
-        class="method-section"
-        aria-labelledby="method-title"
-      >
-        <div class="container">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">THE IDEA</p>
-              <h2 id="method-title">One observation leads to the next.</h2>
-            </div>
-            <p>
-              The preceding generation guides the next motion.<br />
-              Stability in the current generation sets when the robot looks again.
-            </p>
-          </div>
-          <div class="method-grid">
-            <article>
-              <svg
-                class="idea-illustration"
-                viewBox="0 0 280 110"
-                aria-hidden="true"
-              >
-                <path
-                  d="M20 86C55 87 56 15 102 29S158 109 202 62S236 36 261 21"
-                  class="idea-path faint"
-                />
-                <path
-                  d="M20 86C61 92 63 31 104 40S162 101 204 57S239 27 261 21"
-                  class="idea-path"
-                />
-                <circle cx="20" cy="86" r="5" />
-                <circle cx="261" cy="21" r="5" />
-                <path
-                  d="M88 19L78 60M155 48L151 90M210 32L225 69"
-                  class="idea-tick"
-                />
-              </svg>
-              <h3>Carry the intended motion.</h3>
-              <p>
-                At a new observation, the unexecuted part of the preceding
-                plan supplies a continuation. Geometry from that same generation
-                guides its direction as the robot forms a fresh action chunk.
-              </p>
-            </article>
-            <article>
-              <svg
-                class="idea-illustration"
-                viewBox="0 0 280 110"
-                aria-hidden="true"
-              >
-                <path d="M20 82C70 80 92 55 130 52S209 20 260 16" class="idea-path faint" />
-                <path d="M20 82C70 80 92 54 130 52S205 57 260 65" class="idea-path faint" />
-                <path d="M20 82C70 80 92 54 130 52S211 38 260 40" class="idea-path faint" />
-                <path d="M20 82C70 80 92 54 130 52" class="idea-path" />
-                <circle cx="20" cy="82" r="5" />
-                <circle cx="130" cy="52" r="7" />
-                <path d="M145 26V79" class="idea-tick" />
-              </svg>
-              <h3>Let stability set the reach.</h3>
-              <p>
-                As that chunk takes shape, GRACE reads how consistently its
-                actions are predicted. The stable prefix determines how far the
-                robot proceeds before observing again.
-              </p>
-            </article>
-            <article>
-              <svg
-                class="idea-illustration"
-                viewBox="0 0 280 110"
-                aria-hidden="true"
-              >
-                <path
-                  d="M20 82C73 80 82 56 115 56S178 38 207 37S240 33 264 18"
-                  class="idea-path faint"
-                />
-                <path d="M20 82C73 80 82 56 115 56" class="idea-path" />
-                <circle cx="20" cy="82" r="5" />
-                <circle cx="115" cy="56" r="7" />
-                <path d="M131 18C168 5 185 57 156 74" class="idea-tick" />
-                <path d="M155 65L155 75L165 73" class="idea-tick" />
-                <path d="M115 56C159 78 188 93 248 62" class="idea-path" />
-              </svg>
-              <h3>Leave the next continuation.</h3>
-              <p>
-                The completed generation provides the next geometric memory.
-                Actual execution advances the remaining plan, so the next
-                observation begins with a continuation shaped by this motion.
-              </p>
-            </article>
-          </div>
-          <p class="method-note">
-            GRACE — Geometric Replanning with Adaptive Chunk Execution.<br />
-            A continuous loop of observation, motion, and continuation.
-          </p>
-        </div>
-      </section>
     </main>
     <footer class="container site-footer">
       <div>
